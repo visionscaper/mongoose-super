@@ -11,6 +11,12 @@ Load the mongoose-super module and create the inherit function.
 
     var MongooseSuper   = require('mongoose-super');
     var inherit         = MongooseSuper.createInherit();
+    
+It also possible to pass a configuration object, for now you can only specify an external logging object:
+
+    var inherit         = MongooseSuper.createInherit({
+        logger : myLogger
+    });
 
 The definition of the parent schema and model
 
