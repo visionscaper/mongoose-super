@@ -2,6 +2,10 @@
   "name": "mongoose-super",
   "version": "0.0.1",
   "description": "Augments Mongoose.js models with super() to call parent model methods. Augmentation is done in an inherit() function that returns a child model based on a parent model and a child schema.",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/visionscaper/mongoose-super.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node ./test"
