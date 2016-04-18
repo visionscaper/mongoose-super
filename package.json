@@ -1,0 +1,23 @@
+{
+  "name": "mongoose-super",
+  "version": "0.0.1",
+  "description": "Augments Mongoose.js model with super() to call parent model methods. Augmentation is done in a inherit() function that returns a child model based on a parent model and a child schema.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test"
+  },
+  "keywords": [
+    "mongoose",
+    "mongoosjs",
+    "mongoose.js",
+    "inherit",
+    "inheritance",
+    "extend",
+    "child",
+    "model",
+    "schema",
+    "super"
+  ],
+  "author": "Freddy Snijder",
+  "license": "MIT"
+}
