@@ -17,6 +17,10 @@ It also possible to pass a configuration object, for now you can only specify an
     var inherit         = MongooseSuper.createInherit({
         logger : myLogger
     });
+    
+Before creating schemas and models you need to load the Mongoose.js module:
+
+    var mongoose = require('mongoose');
 
 The definition of the parent schema and model
 
