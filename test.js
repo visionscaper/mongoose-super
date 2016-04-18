@@ -37,4 +37,7 @@ var human = new Human({ name : "Jim" });
 human.whoami();
 human.methodWithoutSuper();
 
+console.log("Repeating whoami() to see the caching of the super method in action : ");
+human.whoami();
+
 process.exit(0);

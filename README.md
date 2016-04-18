@@ -53,4 +53,15 @@ When we create an instance of the Human model whoami() prints the logs from the 
     //
     // I have 2 legs.
     // My name is Jim
-
+    
+The first time you use a parent method it is retrieved and bound to the current instance you call it on.
+After the first time the bound parent method is cached such that the second time you use it, during the lifetime of 
+your model instance, it is retrieved from cache.
+ 
+   // Calling the method a second time uses a cached version of the parent method bound to the instance:
+   human.whoami();
+   // Prints:
+   //
+   // I have 2 legs.
+   // My name is Jim
+  
