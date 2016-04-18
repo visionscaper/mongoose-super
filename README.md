@@ -1,7 +1,7 @@
 # mongoose-super
 Augments Mongoose.js models with super() to call parent model methods. Augmentation is done in an inherit() function that returns a child model based on a parent model and a child schema.
 
-## Instalation
+## Installation
 
     npm install mongoose-super
     
