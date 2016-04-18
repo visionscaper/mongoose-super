@@ -12,7 +12,7 @@ Load the mongoose-super module and create the inherit function.
     var MongooseSuper   = require('mongoose-super');
     var inherit         = MongooseSuper.createInherit();
     
-It also possible to pass a configuration object, for now you can only specify an external logging object:
+It also possible to pass a configuration object, for now you can only specify an external logging object as configuration option:
 
     var inherit         = MongooseSuper.createInherit({
         logger : myLogger
